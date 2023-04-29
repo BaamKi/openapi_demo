@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+.payment_page .left_cont {
+  width: 100%;
+}
+
+.main_img {
+  width: 100%;
+  height: auto;
+  margin: 30px 0 47px;
+}
+
+.payment_page .text_big_title {
+  margin-bottom: 15px;
+}
+
+
+/* main_text_section */
+.main_text_section .text_bot {
+  padding-bottom: 0;
+}
+
+/* SDK 추가하기 */
+.add_SDK_section .sub_text_box.yellow {
+  margin-top:30px;
+}
+
+/* API 준비하기 */
+.ready_API_section .sub_text_box.red {
+  margin: 25px 0 30px;
+}
+
+.ready_API_section article.authentication .highlight_wrap {
+  margin: 20px 0;
+}
+
+/* payment_page.fgkey 페이지 */
+.payment_page.fgkey .fgkey_info_list {
+  margin-top: 20px;
+}
+
+.side_content .contents_container > section > article:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+/* payment_page.additional_inquiry 페이지 */
+.payment_page.additional_inquiry .spacing_word {
+  margin-left: 10px;
+}
+
+
+/* payment_page.additional_purchase */
+.payment_page.additional_purchase .bold_text {
+  display: inline-block;
+  font-size: var(--font_size15);
+  font-weight: 500;
+  color: #384554;
+}
+
+.payment_page.additional_purchase .purchase_list {
+  padding: 20px 0;
+}
+
+.payment_page.additional_purchase .purchase_list > li {
+  margin-bottom: 15px;
+}
+
+.payment_page.additional_purchase .purchase_list > li:last-child {
+  margin-bottom: 0;
+}
+.payment_page.additional_purchase .purchase_list > li:last-child .text_cont {
+  margin-bottom:0 !important
+}
+
+.payment_page.additional_purchase .purchase_list > li .bold_text {
+  margin-right: 4px;
+  line-height: 2.2;
+}
+
+.payment_page.additional_purchase .info_section .sub_text_box {
+  margin-top: 20px;
+}
+
+/* payment_page.additional_agent */
+.payment_page.additional_agent .submall_section .highlight_wrap {
+  margin-bottom: 30px;
+}
+
+.payment_page.additional_agent .main_text_section .sub_text_box {
+  margin-top: 20px;
+}
+
+/* .main.javascript_sdk */
+.main.javascript_sdk .link_text {
+  /* font-size: var(--font_size15); */
+}
+
+.main.javascript_sdk .main_text_section .sub_text_box.yellow {
+  margin-bottom: 25px;
+}
+
+.main.javascript_sdk .yellow_box + .text_cont {
+  line-height: 1.8;
+}
+
+.main.javascript_sdk .main_text_section .sub_text_box.yellow strong.text_cont {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.main.javascript_sdk .main_text_section .sub_text_box.yellow ol > li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.main.javascript_sdk
+  .main_text_section
+  .sub_text_box.yellow
+  ol
+  > li:last-child {
+  margin-bottom: 0;
+}
+
+.main.javascript_sdk
+  .main_text_section
+  .sub_text_box.yellow
+  ol
+  > li
+  .bold_text {
+  color: #384554;
+}
+
+.main.javascript_sdk .key_cont .key_list {
+  padding: 10px 0;
+}
+
+.main.javascript_sdk .key_cont .key_list > li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main.javascript_sdk .key_cont .key_list > li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1500px) {
+
+  /* main_text_section */
+
+  /* SDK 추가하기 */
+
+  /* API 준비하기 */
+
+  /* payment_page.fgkey 페이지 */
+
+  /* payment_page.additional_agent */
+}
+
+/* 태블릿 */
+@media screen and (max-width: 980px) {
+  /* main_text_section */
+
+  /* SDK 추가하기 */
+
+  /* API 준비하기 */
+
+  /* payment_page.fgkey 페이지 */
+
+  /* payment_page.additional_inquiry 페이지 */
+  .payment_page.additional_inquiry .spacing_word {
+    margin-left: 0;
+  }
+  .payment_page .text_big_title {
+    margin-bottom:15px
+  }
+  /* payment_page.additional_cancel 페이지 */
+
+  /* payment_page.additional_purchase */
+
+  /* .main.javascript_sdk */
+  .main.javascript_sdk .main_text_section .sub_text_box.yellow ol > li {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  /* .payment_page .text_big_title {
+    margin-bottom:12px
+  }
+  
+  .ready_API_section .sub_text_box.red {
+    margin:15px 0 0
+  }
+
+  .ready_API_section article.authentication .highlight_wrap {
+    margin:20px 0 15px
+  }
+
+  .add_SDK_section .sub_text_box.yellow {
+    margin-top:15px
+  }
+
+  .highlight_wrap.all {
+    padding:25px 50px 0 15px
+  }
+
+  .highlight_wrap .btn_code_copy {
+    top:15px;
+    right:15px;
+  } */
+}
+
+/* 모바일 */
+@media screen and (max-width: 680px) {
+  .payment_page .text_big_title {
+    margin-bottom:12px
+  }
+
+  .payment_page .left_cont {
+    padding-right:0;
+    margin-bottom:15px
+  }
+  
+  .ready_API_section .sub_text_box.red {
+    margin:15px 0
+  }
+
+  .ready_API_section article.authentication .highlight_wrap {
+    margin:20px 0 15px
+  }
+
+  .add_SDK_section .sub_text_box.yellow {
+    margin-top:15px
+  }
+
+  .highlight_wrap.all {
+    padding:25px 50px 0 15px
+  }
+
+  .highlight_wrap .btn_code_copy {
+    top:15px;
+    right:15px;
+  }
+
+  .main.javascript_sdk .main_text_section .sub_text_box.yellow {
+    margin-bottom:15px
+  }
+
+  .payment_page.additional_purchase .purchase_list {
+    padding:15px 0
+  }
+  
+  .payment_page.additional_purchase .purchase_list > li {
+    margin-bottom:10px
+  }
+
+}
